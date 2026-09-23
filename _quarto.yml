@@ -1,0 +1,60 @@
+﻿project:
+  type: book
+  output-dir: _output
+
+book:
+  title: "ផែនដីនិងបរិស្ថានវិទ្យា ថ្នាក់ទី១០"
+  subtitle: "សៀវភៅសង្ខេបមេរៀន និងកិច្ចការផ្ទះអន្តរកម្ម"
+  author: "លោកគ្រូ មឿន រិទ្ធី"
+  date: "2026"
+
+  sidebar:
+    style: "floating"
+    collapse-level: 1
+    pinned: true
+    search: true
+
+  chapters:
+    - index.qmd
+
+    - part: "ជំពូកទី១៖ ប្រវត្តិភពផែនដី"
+      chapters:
+        - chapter1/lesson1.qmd
+        - chapter1/lesson2.qmd
+        - chapter1/lesson3.qmd
+        - chapter1/lesson4.qmd
+        - chapter1/lesson5.qmd
+        - chapter1/summary.qmd
+
+    - part: "ជំពូកទី២៖ ការប្រែប្រួលបរិស្ថាន"
+      chapters:
+        - chapter2/lesson1.qmd
+        - chapter2/lesson2.qmd
+        - chapter2/lesson3.qmd
+        - chapter2/lesson4.qmd
+        - chapter2/summary.qmd
+
+    - part: "ជំពូកទី៣៖ អាកាសធាតុនិងធាតុអាកាស"
+      chapters:
+        - chapter3/lesson1.qmd
+        - chapter3/lesson2.qmd
+        - chapter3/lesson3.qmd
+        - chapter3/lesson4.qmd
+        - chapter3/lesson5.qmd
+        - chapter3/summary.qmd
+
+    - part: "ជំពូកទី៤៖ សកល"
+      chapters:
+        - chapter4/lesson1.qmd
+        - chapter4/lesson2.qmd
+        - chapter4/lesson3.qmd
+        - chapter4/summary.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    smooth-scroll: true
+    css: assets/custom.css

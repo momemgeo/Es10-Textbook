@@ -1,0 +1,68 @@
+{
+  "index.qmd": {
+    "index.html": "0bde2175"
+  },
+  "chapter1/lesson1.qmd": {
+    "lesson1.html": "0bb57453"
+  },
+  "chapter1/lesson2.qmd": {
+    "lesson2.html": "8e4f4b13"
+  },
+  "chapter1/lesson3.qmd": {
+    "lesson3.html": "9f68ed64"
+  },
+  "chapter1/lesson4.qmd": {
+    "lesson4.html": "898589e2"
+  },
+  "chapter1/lesson5.qmd": {
+    "lesson5.html": "7434bd1e"
+  },
+  "chapter1/summary.qmd": {
+    "summary.html": "3772f55b"
+  },
+  "chapter2/lesson1.qmd": {
+    "lesson1.html": "e38c27f2"
+  },
+  "chapter2/lesson2.qmd": {
+    "lesson2.html": "3980366a"
+  },
+  "chapter2/lesson3.qmd": {
+    "lesson3.html": "c36d8a20"
+  },
+  "chapter2/lesson4.qmd": {
+    "lesson4.html": "f62cc541"
+  },
+  "chapter2/summary.qmd": {
+    "summary.html": "7a27869b"
+  },
+  "chapter3/lesson1.qmd": {
+    "lesson1.html": "1b8c7801"
+  },
+  "chapter3/lesson2.qmd": {
+    "lesson2.html": "05f72428"
+  },
+  "chapter3/lesson3.qmd": {
+    "lesson3.html": "caf46d9b"
+  },
+  "chapter3/lesson4.qmd": {
+    "lesson4.html": "c6ead788"
+  },
+  "chapter3/lesson5.qmd": {
+    "lesson5.html": "a65ab494"
+  },
+  "chapter3/summary.qmd": {
+    "summary.html": "ed4beaaf"
+  },
+  "chapter4/lesson1.qmd": {
+    "lesson1.html": "1191fd63"
+  },
+  "chapter4/lesson2.qmd": {
+    "lesson2.html": "1585698a"
+  },
+  "chapter4/lesson3.qmd": {
+    "lesson3.html": "5929b731"
+  },
+  "chapter4/summary.qmd": {
+    "summary.html": "704e019b"
+  }
+}
