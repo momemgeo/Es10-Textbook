@@ -59,7 +59,7 @@ format:
     toc: true
     toc-depth: 3
     toc-title: "មាតិកាក្នុងទំព័រ"
-    number-sections: true
+    number-sections: false
     smooth-scroll: true
     link-external-newwindow: true
     code-copy: hover
