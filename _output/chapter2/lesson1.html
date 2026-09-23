@@ -326,7 +326,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
+    <h2 id="toc-title">មាតិកាក្នុងទំព័រ</h2>
    
   <ul>
   <li><a href="#មណឌលសល-lithosphere" id="toc-មណឌលសល-lithosphere" class="nav-link active" data-scroll-target="#មណឌលសល-lithosphere"><span class="header-section-number">6.1</span> ១. មណ្ឌលសិលា (Lithosphere)</a></li>
@@ -470,6 +470,11 @@ window.Quarto = {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

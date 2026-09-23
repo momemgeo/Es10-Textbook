@@ -4,8 +4,8 @@
 
 book:
   title: "ផែនដីនិងបរិស្ថានវិទ្យា ថ្នាក់ទី១០"
-  subtitle: "សៀវភៅសង្ខេបមេរៀន និងកិច្ចការផ្ទះអន្តរកម្ម"
-  author: "លោកគ្រូ មឿន រិទ្ធី"
+  subtitle: "សៀវភៅសង្ខេបមេរៀន និងកិច្ចការផ្ទះ"
+  author: "MOM Em"
   date: "2026"
 
   sidebar:
@@ -52,9 +52,14 @@ book:
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: cosmo
+    css: assets/custom.css
+    page-layout: article
     toc: true
     toc-depth: 3
+    toc-title: "មាតិកាក្នុងទំព័រ"
     number-sections: true
     smooth-scroll: true
-    css: assets/custom.css
+    link-external-newwindow: true
+    code-copy: hover

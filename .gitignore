@@ -1,3 +1,5 @@
-﻿/.quarto/
+/.quarto/
 /_output/
 .DS_Store
+
+**/*.quarto_ipynb
