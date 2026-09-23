@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="លោកគ្រូ មឿន រិទ្ធី">
+<meta name="author" content="MOM Em">
 <meta name="dcterms.date" content="2026-01-01">
 
 <title>ផែនដីនិងបរិស្ថានវិទ្យា ថ្នាក់ទី១០</title>
@@ -298,7 +298,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
+    <h2 id="toc-title">មាតិកាក្នុងទំព័រ</h2>
    
   <ul>
   <li><a href="#សចកដផដម" id="toc-សចកដផដម" class="nav-link active" data-scroll-target="#សចកដផដម">សេចក្ដីផ្ដើម</a>
@@ -314,7 +314,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">ផែនដីនិងបរិស្ថានវិទ្យា ថ្នាក់ទី១០</h1>
-<p class="subtitle lead">សៀវភៅសង្ខេបមេរៀន និងកិច្ចការផ្ទះអន្តរកម្ម</p>
+<p class="subtitle lead">សៀវភៅសង្ខេបមេរៀន និងកិច្ចការផ្ទះ</p>
 </div>
 
 
@@ -324,7 +324,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>លោកគ្រូ មឿន រិទ្ធី </p>
+             <p>MOM Em </p>
           </div>
   </div>
     
@@ -462,6 +462,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

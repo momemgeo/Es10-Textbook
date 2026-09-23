@@ -1,24 +1,141 @@
-@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Koulen&display=swap');
+/* 1. Google Web Fonts for Modern Khmer Typography */
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Koulen&display=swap');
 
-body {
-  font-family: 'Kantumruy Pro', sans-serif;
-  font-size: 1.05rem;
-  line-height: 1.85;
-  color: #2b2d42;
+:root {
+  --primary-color: #1d3557;
+  --accent-color: #457b9d;
+  --bg-subtle: #f8f9fa;
+  --text-main: #2b2d42;
+  --border-color: #e9ecef;
 }
 
-h1, h2, h3, h4, .sidebar-title {
+/* 2. Base Typography & Text Justification */
+body {
+  font-family: 'Kantumruy Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: var(--text-main);
+  background-color: #ffffff;
+}
+
+/* Justify all standard body text while avoiding awkward spacing */
+main p, 
+main li, 
+.panel-tabset p, 
+.callout p {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
+/* 3. Modern Headings */
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Koulen', 'Kantumruy Pro', cursive;
   letter-spacing: 0.5px;
+  color: var(--primary-color);
+  margin-top: 1.6rem;
+  margin-bottom: 0.8rem;
 }
 
+h1 {
+  font-size: 2.1rem;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 0.4rem;
+}
+
+h2 {
+  font-size: 1.55rem;
+  color: #1a365d;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+/* 4. Elegant Sidebar & Navigation */
+.sidebar {
+  font-family: 'Kantumruy Pro', sans-serif;
+  background-color: var(--bg-subtle);
+  border-right: 1px solid var(--border-color);
+}
+
+.sidebar-title {
+  font-family: 'Koulen', cursive !important;
+  font-size: 1.35rem;
+  color: var(--primary-color) !important;
+  line-height: 1.4;
+}
+
+.sidebar-item-text {
+  font-weight: 400;
+  font-size: 0.95rem;
+}
+
+.sidebar-item.active > a {
+  font-weight: 600;
+  color: var(--primary-color) !important;
+  border-left: 3px solid var(--accent-color);
+  padding-left: 0.5rem;
+}
+
+/* 5. Modern Card-Style Callout Blocks */
 .callout {
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border-radius: 10px !important;
+  border-left-width: 4px !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+  margin: 1.5rem 0;
+  border-top: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
 }
 
+.callout-title {
+  font-family: 'Koulen', 'Kantumruy Pro', sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.3px;
+}
+
+/* 6. Professional Images & Figures */
 img {
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  margin: 1.2rem auto;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
+  margin: 1.4rem auto;
+  display: block;
+  transition: transform 0.2s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.01);
+}
+
+/* 7. Clean Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+}
+
+th {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  font-weight: 600;
+  padding: 10px 14px;
+  text-align: left;
+}
+
+td {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border-color);
+  text-align: justify;
+}
+
+tr:nth-child(even) {
+  background-color: #fdfdfd;
+}
+
+tr:hover {
+  background-color: #f1f5f9;
 }
